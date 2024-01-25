@@ -1,5 +1,4 @@
 import os
-from transformers import GPT2TokenizerFast, GPT2LMHeadModel
 from llama_index import SimpleDirectoryReader, ServiceContext, VectorStoreIndex
 from llama_index.llms import HuggingFaceInferenceAPI
 
